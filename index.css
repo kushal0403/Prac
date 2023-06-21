@@ -1,0 +1,40 @@
+/* body{
+    margin: 0px;
+    padding: 0px;
+} */
+
+.menu-toggle {
+    display:list-item;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 4px;
+  }
+  
+  .menu {
+    
+    display: none;
+    
+    /* additional styling for the menu */
+  }
+  
+  /* Show/hide menu when the toggle is clicked */
+  .menu-toggle.active + .menu {
+    display: block;
+  }
+
+
+/* a{
+    display: flex;
+    text-decoration: none;
+} */
+
